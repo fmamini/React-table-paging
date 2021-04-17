@@ -1,0 +1,27 @@
+$main-color : #f2f2f2;
+$button-color : #878787;
+$size-rem :1rem;
+.card{
+    border:1px solid $button-color;
+    border-radius: 0.5rem;
+    margin:$size-rem;
+    padding: $size-rem;
+    .card-title{
+        font-size: $size-rem
+    }
+}
+.back {
+    button{
+        border:none;
+        outline: unset;
+        background-color: $main-color;
+        padding: $size-rem 2rem;
+        border: 1px solid $button-color;
+        border-radius: 0.3rem;
+        margin:$size-rem;
+        cursor: pointer;
+    }
+}
+.card:nth-child(even){
+    background-color: $main-color;
+}

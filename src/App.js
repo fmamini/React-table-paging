@@ -4,7 +4,7 @@ import Postdetail from './Components/Postdetail/Postdetail'
 import Customtable from './Components/Customtable/Customtable'
 import history from './store/history';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import "./App.css"
+import "./App.scss"
 
 
 function App() {

@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { useHistory } from "react-router-dom"
 import { connect } from 'react-redux'
 import { fetchDetailPost } from "../../actions/detailpostAction"
-import "./Postdetail.css"
+import "./Postdetail.scss"
 function Postdetail({ detailPostData, fetchDetailPost }) {
     const history = useHistory()
     const { loadingDetail, error, post } = detailPostData

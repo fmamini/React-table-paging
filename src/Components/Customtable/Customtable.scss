@@ -1,0 +1,45 @@
+$main-color:#ddd;
+$paging-color:#ccc;
+.container{
+    margin: 3rem;
+}
+.custom-table{
+    border-collapse: collapse;
+    width: 100%;
+    th {
+      padding: 13px;
+      border: 1px solid $main-color;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+    }
+    td{
+      border: 1px solid $main-color;
+      padding: 13px;
+      cursor: pointer;
+    }
+    tr:nth-child(even){background-color: #f2f2f2;}
+    .custom-table tr:hover {background-color: $main-color;}
+}
+  .pagination{
+      display: flex;
+      float: right;
+      margin-top: 2rem;
+      li{
+        width: 30px;
+        border: 1px solid $paging-color;
+        list-style: none;
+        padding: 0.3rem ;
+        text-align: center;
+        cursor: pointer;
+        margin: 0.1rem;
+        border-radius: 0.2rem;
+      }
+      li.active{
+        background-color: $paging-color;
+      }
+      li a{
+        outline: none !important;
+        border: none !important;
+      }
+  }

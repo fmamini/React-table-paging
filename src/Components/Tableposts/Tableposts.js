@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom"
 import { connect } from 'react-redux'
 import { fetchPosts } from "../../actions/postsAction"
 import { DataGrid } from '@material-ui/data-grid';
-import "./Tableposts.css"
+import "./Tableposts.scss"
 
 function Tableposts({ postsData, fetchPosts }) {
     const history = useHistory()

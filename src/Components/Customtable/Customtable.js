@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom"
 import { connect } from 'react-redux'
 import { fetchPosts } from "../../actions/postsAction"
 import ReactPaginate from 'react-paginate';
-import "./Customtable.css"
+import "./Customtable.scss"
 function Customtable({ postsData, fetchPosts }) {
     const history = useHistory()
     const { loading, error, posts } = postsData
