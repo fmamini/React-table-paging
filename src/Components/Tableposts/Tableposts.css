@@ -1,0 +1,27 @@
+.MuiDataGrid-root{
+    margin: 3rem;
+}
+.MuiDataGrid-root .MuiDataGrid-row:nth-child(odd),
+.card:nth-child(odd){
+    background-color: #f2f2f2;
+}
+.MuiDataGrid-root .MuiDataGrid-cell{
+    line-height: 1.5rem !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    padding: 0.07rem 0.5rem !important;
+    min-height: auto !important;
+    max-height: none !important;
+    overflow: unset !important;
+    align-items: center;
+    justify-content: center;
+}
+.MuiDataGrid-root .MuiDataGrid-row{
+    cursor: pointer;
+    min-height: auto !important;
+    max-height: none !important;
+}
+.MuiDataGrid-root .MuiDataGrid-cellLeft{
+display: flex !important;
+justify-content: end !important;
+}

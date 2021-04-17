@@ -1,0 +1,20 @@
+.card{
+    border:1px solid #ccc;
+    border-radius: 0.5rem;
+    margin:1rem;
+    padding: 1rem;
+}
+.card-title{
+    font-size: 1rem;
+    color: #4880c5;
+}
+.back button{
+    border:none;
+    outline: unset;
+    background-color: #878787;
+    padding: 1rem 2rem;
+    color: #fff;
+    border-radius: 0.3rem;
+    margin:1rem;
+    cursor: pointer;
+}
